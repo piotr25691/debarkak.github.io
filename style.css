@@ -11,10 +11,19 @@
   font-size: 20px;
   padding: 10px;
   overflow: hidden;
+  z-index: 0;
 }
 
 .cursor {
   animation: blink 0.5s infinite;
+}
+
+.bg {
+  position: fixed;
+  height: 100dvh;
+  width: 100vw;
+  z-index: -1;
+  background: black;
 }
 
 @keyframes blink {
