@@ -1,5 +1,5 @@
 const terminal = document.getElementById("terminal");
-const text = "welcome to my website\nthis is just a simple typing animation website";
+const text = "welcome to my website" , "this is just a simple typing animation website";
 let index = 0;
 
 function type() {
